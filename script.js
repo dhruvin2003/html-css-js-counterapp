@@ -1,5 +1,5 @@
 const boxelement = document.getElementById("box");
-// click event listner 
-boxelement.addEventListener("click", function() {
-    alert("areyy bhyii click kiya re");
+// adding mouseover event listner
+boxelement.addEventListener("mouseover", function() {
+    alert("mouseover is working properly");
 });
