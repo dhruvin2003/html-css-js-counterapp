@@ -1,5 +1,7 @@
-const boxelement = document.getElementById("box");
-// click event listner 
-boxelement.addEventListener("click", function() {
-    alert("areyy bhyii click kiya re");
+let inputbox = document.getElementById('input-box');
+let display = document.getElementById('display');
+
+// adding on keypress event listner
+inputbox.addEventListener('keypress', function(e) {
+    display.innerText = "Pressed successfully" + e.key
 });
